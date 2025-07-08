@@ -1,0 +1,12 @@
+schemaVersion: "1.2"
+endpoints:
+    - name: tracking-api-5c6
+      displayName: Tracking API
+      service:
+        basePath: /
+        port: 8080
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: openapi.yaml
